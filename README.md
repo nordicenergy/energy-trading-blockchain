@@ -15,8 +15,9 @@
 ### 1. Use case Description
 Consider an isolated micro-grid, containing entities that generate and store energy; and other entities that are energy deficient.
 Such a network requires distribution of energy to bring about equilibrium.
+
 Presently, there is no such system which can facilitate communication between entities having an energy surplus and entities having an energy deficit.
-This Proof of Concept demonstrates the trading of energy between two such entities using a blockchain platform as an immutable ledger of transactions
+This Proof of Concept (PoC) demonstrates the trading of energy between two such entities using a blockchain platform as an immutable ledger of transactions
 We have also used a Smart Contract for real-time accounting and settlement of transactions.
 
 ### 2. Advantages of our Architecture
@@ -103,5 +104,5 @@ This option enables the buyer to stop drawing power from the batteries once the 
 - It will take you back to the Login page.
 - The cards on this page show all the information about the sellers and the buyers in the network.
 - After a timeout, the latest bid value along with buyer’s and seller’s address are fed into the Blockchain using the Smart Contract.
-- Corresponding crypto-currency (Ether) are sent from the buyer’s account to the seller’s account for every KWH power consumed by the buyer.
+- Corresponding cryptocurrency (Ether) are sent from the buyer’s account to the seller’s account for every KWH power consumed by the buyer.
 - All these actions in the software are coupled with the demo hardware, for example, depending on the state of transaction between two entities, the serial ports of the machines command microcontrollers present inside the Energy Meters to toggle the relays.
